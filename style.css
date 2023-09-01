@@ -1,0 +1,70 @@
+#body{
+    background-color:#b3ffff;
+    margin: 0;
+    padding: 0;
+}
+
+.header-perfil__title{
+     color:#0033cc;
+    font-family: "Poppins",sans-serif;
+    text-align: center;
+
+}
+.header-perfil__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.header-perfil__figcaption{
+   text-align: center;
+   font-family: "Poppins",sans-serif;
+   color:#0000e6;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.perfil-resumo__title,
+.perfil-habilidade__title,.perfil-educacao__title,
+.perfil-hobbies__title,.perfil-externos__title,
+.perfil-ods__title{
+    color: #660099;
+    display: inline-block;
+    background-color : #cc99ff;
+    font-size: 24px;
+
+}
+/* resumo */
+.perfil-resumo__text{
+
+    font-family:"Poppins",sans-serif;
+    font-size: 16px;
+    font-style: oblique;
+    font-display: block;
+    color:rgb(77, 0, 38);
+      
+}
+/* ods */
+.perfil-ods__figcation{
+
+   color:#0000e6;
+   display: flex;
+   justify-content: left;
+   align-items: center;
+}
+/* educação */
+.perfil-educacao__text{
+    font-weight: bold;
+
+}
+
+/* habilidades */
+.resumo-habilidade__list{
+
+    color : #660099;
+    text-align: justify;
+}
+
